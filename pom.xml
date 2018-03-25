@@ -24,4 +24,5 @@
   <build>
     <finalName>myartifact</finalName>
   </build>
+  
 </project>
