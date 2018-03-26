@@ -10,6 +10,10 @@ public class HelloWorld extends HttpServlet {
 	 */
 	private static final long serialVersionUID = 1L;
 
+    public static int num() {
+        return 10;
+       }
+
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
 		request.setCharacterEncoding("utf-8");
