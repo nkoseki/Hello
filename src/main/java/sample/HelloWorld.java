@@ -16,7 +16,7 @@ public class HelloWorld extends HttpServlet {
 		// formから値を取得
 	    String val1 = request.getParameter("param1");
 	    
-		//response.setContentType("text/html; charset=utf-8");
+		response.setContentType("text/html; charset=utf-8");
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
 		out.print("HelloWorld: ");
