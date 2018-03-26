@@ -10,7 +10,7 @@ public class SimpleHelloTest extends TestCase {
 	public void testFirst(){
 		sample.SimpleHello hello = new sample.SimpleHello();
 		hello.setId(10);
-		assertEquals(10, hello.getId());
+		assertEquals(9, hello.getId());
 		
 	}
 }
